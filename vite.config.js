@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     radar({
-      gtm: {
+      analytics: {
         id: process.env.GOOGLE_TAG_MANAGER_ID
       }
     })
